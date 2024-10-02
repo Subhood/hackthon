@@ -1,0 +1,20 @@
+/* frontend/src/components/Home.css */
+
+body {
+    background-color: #f0f0f0; /* Light gray background for contrast */
+    font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker text color */
+}
+
+.container {
+    max-width: 800px; /* Limit the container width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    background: white; /* White background for the content area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}

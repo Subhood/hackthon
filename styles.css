@@ -1,0 +1,29 @@
+/* frontend/src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://tse3.mm.bing.net/th?id=OIP.p8F5WVLmuQ4Po_TfUIz-BgHaGM&pid=Api&P=0&h=180') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    padding: 20px; /* Added padding for better appearance */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+pre {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}

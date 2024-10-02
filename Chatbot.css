@@ -1,0 +1,73 @@
+/* frontend/src/components/Chatbot.css */
+
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #333; /* Dark background for the chatbot */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.chatbot-header {
+    background-color: #007bff; /* Header color */
+    color: white; /* White text for header */
+    padding: 10px;
+    text-align: center;
+}
+
+.chatbot-messages {
+    flex-grow: 1; /* Take remaining space */
+    padding: 10px;
+    overflow-y: auto; /* Enable scrolling */
+    max-height: 300px; /* Limit height */
+}
+
+.chatbot-message {
+    margin: 5px 0; /* Space between messages */
+    padding: 5px;
+    border-radius: 4px; /* Rounded corners */
+    max-width: 80%; /* Limit message width */
+}
+
+.chatbot-message.user {
+    background-color: #007bff; /* User message color */
+    color: white; /* White text */
+    align-self: flex-end; /* Align user messages to the right */
+}
+
+.chatbot-message.bot {
+    background-color: #555; /* Bot message color */
+    color: white; /* White text */
+    align-self: flex-start; /* Align bot messages to the left */
+}
+
+.chatbot-input {
+    display: flex; /* Flexbox layout */
+    padding: 10px; /* Space inside input area */
+}
+
+.chatbot-input input {
+    flex-grow: 1; /* Take remaining space */
+    padding: 10px; /* Padding for input */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    margin-right: 5px; /* Space between input and button */
+}
+
+.chatbot-input button {
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 10px; /* Padding for button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.chatbot-input button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
